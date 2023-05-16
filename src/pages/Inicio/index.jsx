@@ -92,16 +92,16 @@ function Inicio() {
             <div className="col">
               <div className="card mb-4 rounded-3 shadow-sm border-primary">
                 <div className="card-header py-3 text-white bg-primary bg-success border-primary">
-                  <h4 className="my-0 fw-normal">Mundo Apple</h4>
+                  <h4 className="my-0 fw-normal">Mundo NOGANET</h4>
                 </div>
                 <div className="card-bodyjimp rounded-bottom" >
                   <img src={promo1} height="380" width="350" alt="comboamericanaconfritas" className="img-fluid" />
                   <h1 className="card-title pricing-card-title mt-3 text-white">Desde $960.000</h1>
                   <ul className="list-unstyled mt-3 mb-4">
-                    <li>iPhone</li>
-                    <li>Mac</li>
-                    <li>iPad</li>
-                    <li>Apple Watch</li>
+                    <li>Noga</li>
+                    <li>NogaSound</li>
+                    <li>NogaANingunlado</li>
+                    <li>Nogana</li>
                   </ul>
                   <Link to="/category/apple"><button type="button" className="w-100 btn btn-lg btn-primary">¡Pedir Online!</button></Link>
                 </div>
@@ -110,16 +110,16 @@ function Inicio() {
             <div className="col">
               <div className="card mb-4 rounded-3 shadow-sm border-primary">
                 <div className="card-header py-3 text-white bg-primary bg-success border-primary">
-                  <h4 className="my-0 fw-normal">Mundo Samsung</h4>
+                  <h4 className="my-0 fw-normal">Mundo NETMAK</h4>
                 </div>
                 <div className="card-bodyjimp rounded-bottom">
                   <img src={promo2} height="280" width="230" alt="comboamericanaconfritas" className="img-fluid" />
                   <h1 className="card-title pricing-card-title mt-3 text-white">Desde $400.000</h1>
                   <ul className="list-unstyled mt-3 mb-4">
-                    <li>Serie Galaxy</li>
-                    <li>Samsung Gear</li>
-                    <li>Galaxy Tab</li>
-                    <li>Samsung Book</li>
+                    <li>Serie NetMAK</li>
+                    <li>Netmark Gear</li>
+                    <li>Netmak Tab</li>
+                    <li>Netmak Book</li>
                   </ul>
                   <Link to="/category/samsung"><button type="button" className="w-100 btn btn-lg btn-primary">¡Pedir Online!</button></Link>
                 </div>

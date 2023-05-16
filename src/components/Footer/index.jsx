@@ -6,8 +6,8 @@ function Footer() {
   {/* Copyright */}
   <div className="text-light text-center p-3 bg-primary">
     © 2023 Copyright: <span></span>
-     <a className="text-light" href="https://jimpingenieria.com/"> 
-        jimpingenieria.com
+     <a className="text-light" href="https://NoMeLaCointener.com/"> 
+        NoMeLaCointener.com
     </a>
   </div>
   {/* Copyright */}

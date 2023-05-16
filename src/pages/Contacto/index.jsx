@@ -12,9 +12,9 @@ function Contacto() {
       <div className="col-md-3 bg-custom p-0 d-flex text-center  mx-auto justify-content-center flex-column">
         <h3 className="mb-2 text-white">Info</h3>
         <div className="info text-light .fs-6">
-          Carrera 5ta con 16 Cali
-          <p>info@jimpitech.com</p>
-          3154785236
+          PimPumPam Nashe
+          <p>info@info.com</p>
+          255986464564654
           <div className="social-icons">
           </div>
         </div>
