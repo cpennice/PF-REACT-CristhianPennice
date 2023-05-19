@@ -6,7 +6,7 @@ import '../../assets/css/animaciones.css'
 import LoadingSpinner from '../../components/LoadingSpinner'
 
 function Servicios() {
-    document.title = 'JIMP iTech - Servicios';
+    document.title = 'MOBILE - Servicios';
     if(servicioscta2 === undefined){
         return <section id="menu" className="py-5 text-center container">
         <div className="album bg-degrade py-5">

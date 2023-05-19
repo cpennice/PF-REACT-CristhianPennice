@@ -30,9 +30,9 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/checkout" element={<CheckOut />} />
         <Route path="/item/:itemid" element={<ItemDetailContainer greeting="Detalle de producto"/>} />  
-        <Route path="/" element={<ItemListContainer greeting="Menú de JIMP iTech"/>} />
+        <Route path="/" element={<ItemListContainer greeting="Menú de MOBILE"/>} />
         <Route path="/cart" element={<CartView greeting="Este es su carrito"/>} / >
-        {/* <Route path="/coderhouse-react" exact component={<ItemListContainer greeting="Bienvenido a JIMP iTech!"/>} /> */}
+        {/* <Route path="/coderhouse-react" exact component={<ItemListContainer greeting="Bienvenido a MOBILE!"/>} /> */}
         <Route path="/category/:category" element={<ItemListContainer greeting="Categoría"/>} />
       </Routes>
       <hr />

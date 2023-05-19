@@ -10,7 +10,7 @@ import '../../assets/css/animaciones.css'
 import LoadingSpinner from '../../components/LoadingSpinner';
 
 function Accesorios() {
-    document.title = 'JIMP iTech - Accesorios';
+    document.title = 'MOBILE - Accesorios';
     if(smartnew === undefined){
         return <section id="menu" className="py-5 text-center container">
         <div className="album bg-degrade py-5">
@@ -26,7 +26,7 @@ function Accesorios() {
           <div className="row mx-auto align-middle text-center py-4">
             <div className="col-lg-4 mx-auto">
               <img src={audio} height="380" width="630" className="img-fluid mx-auto rounded-circle" alt="Audio Bose" />
-              <h2>Bose JVL Sony  <p>Audio de alto nivel</p></h2>
+              <h2>Bose JVL Sony NOGANET  <p>Audio de alto nivel</p></h2>
               <p>Sumérgete en una experiencia auditiva excepcional con nuestra selección de productos de audio de alta calidad. Desde auriculares inalámbricos hasta altavoces potentes, nuestros productos de audio están diseñados para ofrecer un sonido nítido y envolvente que te permitirá disfrutar al máximo de tu música, películas y videojuegos favoritos. ¡Descubre la diferencia que un buen producto de audio puede hacer en tu vida!</p>
               <p><Link to="" className="btn btn-secondary">Más info »</Link></p>
             </div>

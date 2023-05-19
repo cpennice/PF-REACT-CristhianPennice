@@ -3,7 +3,7 @@ import './Contacto.css';
 import '../../assets/css/animaciones.css'
 
 function Contacto() {
-    document.title = 'JIMP iTech - Contacto';
+    document.title = 'MOBILE - Contacto';
   return (
     <section className="slide-in-fwd-center">
   {/* Formulario de contacto - no funcional basado en https://www.freecontactform.com/form-guides/html-email-form*/}

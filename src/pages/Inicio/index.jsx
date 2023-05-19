@@ -12,7 +12,7 @@ import LoadingSpinner from '../../components/LoadingSpinner/';
 
 function Inicio() {
 
-  document.title = 'JIMP iTech - Inicio';
+  document.title = 'MOBILE - Inicio';
 
 
   if (promo3 === undefined) {
@@ -35,11 +35,11 @@ function Inicio() {
             <div className="col-lg-8 text-center text-lg-start">
               {/* Título */}
               <h1 className="ls-tight font-bolder display-5 text-white mb-5">
-                ¡Somos los mejores en materia de Telefonía Celular, Accesorios y todo lo relacionado con Tecnología!
+                ¡En cuanto a todo lo relacionado con Tecnología, nuestra empresa es la mejor opción. Somos expertos en Telefonía Celular y disponemos de un amplio catálogo de Accesorios para mejorar tu experiencia tecnológica. Nos destacamos por nuestra calidad y servicio al cliente, ofreciendo siempre lo mejor en tecnología para satisfacer las necesidades de nuestros clientes y mejorar su calidad de vida.!
               </h1>
               {/* Texto */}
               <p className="lead text-white text-opacity-80 mb-10 w-lg-2/3">
-                Tenemos las mejores los mejores smartphones y accesorios a los mejores precios, con la mejor garantía y al alcance de un click.
+              Si estás buscando los mejores smartphones y accesorios, has llegado al lugar indicado. En nuestra empresa encontrarás los dispositivos móviles más avanzados a precios accesibles, y con una excelente garantía. Además, contamos con una gran variedad de accesorios que complementan tus dispositivos móviles y mejoran su uso. Todo esto, desde la comodidad de tu hogar y a un sólo clic de distancia. Nos enfocamos en brindar un excelente servicio a nuestros clientes, garantizando la satisfacción y fidelidad de los mismos.
                 {/* Botones */}
               </p><div className="mt-10 mx-n2">
                 <Link to="/" className="btn btn-lg btn-primary shadow-sm mx-2 px-lg-8">
@@ -59,7 +59,7 @@ function Inicio() {
             <img className="d-block mx-auto img-fluid mb-4" src={tecnojimp} alt="Mundo Tech" />
             <h1 className="display-5 fw-bold">¡Ven por tu promo!</h1>
             <div className="col-lg-6 mx-auto">
-              <p className="lead mb-4">¡Bienvenidos a nuestra tienda de teléfonos y tecnología! Somos un equipo apasionado por la tecnología y nos encanta ayudar a nuestros clientes a encontrar el dispositivo perfecto que se ajuste a sus necesidades y presupuesto.</p>
+              <p className="lead mb-4">Somos un equipo apasionado por la tecnología que busca ofrecer la mejor experiencia de compra a nuestros clientes. Ofrecemos dispositivos móviles y accesorios de calidad a precios accesibles, brindando siempre un trato personalizado y comprometido con la satisfacción del cliente. ¡Te esperamos en nuestra tienda de tecnología!</p>
               <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <Link to="/"><button type="button" className="btn btn-primary btn-lg px-4 gap-3">Menú</button></Link>
                 <Link to="/novedades"><button type="button" className="btn btn-outline-secondary btn-lg px-4">Promos</button></Link>
@@ -74,7 +74,7 @@ function Inicio() {
               </div>
               <div className="col-lg-6">
                 <h1 className="display-5 fw-bold lh-1 mb-3">¡Ven por tu promo!</h1>
-                <p className="lead">¡Bienvenidos a nuestra tienda de teléfonos y tecnología! Somos un equipo apasionado por la tecnología y nos encanta ayudar a nuestros clientes a encontrar el dispositivo perfecto que se ajuste a sus necesidades y presupuesto.</p>
+                <p className="lead">Somos un equipo apasionado por la tecnología que busca ofrecer la mejor experiencia de compra a nuestros clientes. Ofrecemos dispositivos móviles y accesorios de calidad a precios accesibles, brindando siempre un trato personalizado y comprometido con la satisfacción del cliente. ¡Te esperamos en nuestra tienda de tecnología!</p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                   <Link to="/"><button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Menú</button></Link>
                   <Link to="/novedades"><button type="button" className="btn btn-outline-secondary btn-lg px-4">Promos</button></Link>

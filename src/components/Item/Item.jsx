@@ -28,7 +28,7 @@ function Item({ item, stock, name, price, description, picture} ) {
     </Card.Body>
     <Container className="d-flex justify-content-center text-center align-middle w-100 mw-30">
     <Badge className="mb-4 text-center m-1">Stock {stock}</Badge>
-    <Badge bg="success me-2 mb-4 text-center m-1">$ {price} COP</Badge>
+    <Badge bg="success me-2 mb-4 text-center m-1">$ {price} ARS</Badge>
     </Container>
     <LinkContainer to={`/item/${item}`}><Button className="btn btn-info">Ver detalles</Button></LinkContainer>
   </Card>
